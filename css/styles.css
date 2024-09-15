@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.section-oneimg {
+  background-image: url(../images/pexels-eberhardgross-443446.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  font-family: monospace;
+}
+
+.home-button {
+  height: 30px;
+  width: 100px;
+  background-color: whitesmoke;
+  font-family: monospace;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.home-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.headingtext-one {
+  color: white;
+}
+
+.section-two {
+  display: flex;
+}
+
+.boxone-secone {
+  width: 25%;
+  height: 500px;
+  background-color: red;
+  background-image: url(../images/pexels-overa32182-822421.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.boxtwo-sectwo {
+  width: 75%;
+  height: 500px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Cambria;
+}
+
+.section-three {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 3px orange;
+}
+
+.content-box {
+  background-color: rgb(196, 195, 195);
+  height: 350px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-sectionthree1 {
+  background-image: url(../images/sum.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.img-sectionthree2 {
+  background-image: url(../images/fal.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.img-sectionthree3 {
+  background-image: url(../images/pexels-eberhardgross-1366919.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.description {
+  width: 300px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+.section_four {
+  width: 100%;
+  height: 500px;
+  background-color: lightyellow;
+}
+
+.content-four {
+  background-color: pink;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/9081c9_6096b664aa66402d87d156c677be3d92~mv2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contentFourText {
+  font-family: "Gill Sans";
+  font-style: oblique;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+.about-heading {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.aboutimg-secone {
+  background-image: url(../images/pexels-wildlittlethingsphoto-4453153.jpg);
+}
+
+.about-secone {
+  background-image: url(../images/pexels-tirachard-kumtanom-112571-450062.jpg);
+}
+
+.aboutimgcon1 {
+  background-image: url(../images/Logan-Carlson-Headshot-actor-teenager-Studio-theater-2020-10-13-SA-headshots1881+1.jpg);
+}
+
+.aboutimgcon2 {
+  background-image: url(../images/Featured-Learn-how-to-hold-your-camera.webp);
+}
+
+.aboutimgcon3 {
+  background-image: url(../images/pexels-justin-shaifer-501272-1222271.jpg);
+}
+
+.aboutdes {
+  font-size: 15px;
+}
+
+.value-img {
+  background-image: url(../images/pexels-riciardus-307008.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.value-img2 {
+  background-image: url(../images/Ecotourism.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.value-img3 {
+  background-image: url(../images/DSCF4568-1200x675.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.value-img4 {
+  background-image: url(../images/AJ-Reynolds-Journaling-Oct-2021-PK-cropped.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.coretext {
+  font-size: 15px;
+  width: 280px;
+  height: 100px;
+  font-family: monospace;
+}
+
+.section_fourabout {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.expimg-secone {
+  background-image: url(../images/pexels-arina-krasnikova-5416640.jpg);
+}
+
+.exp-secone {
+  background-image: url(../images/1568549110785.jpeg);
+}
+
+.expimgcon1 {
+  background-image: url(../images/climbing-mount-fuji-in-off-season-e1553896677572-768x426.jpg);
+}
+
+.exp-section3 {
+  border: 5px solid darkcyan;
+}
+
+.expimgcon2 {
+  background-image: url(../images/Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg);
+}
+
+.expimgcon2 {
+  background-image: url(../images/Bear_Digging_and_Denali_\(11330360484\).jpg);
+}
+
+.exp-img {
+  background-image: url(../images/22d33231-3297-44bf-a73f-685e3a38a1fd-Pacific_crest_trail_hikers1076.webp);
+}
+
+.exp-img2 {
+  background-image: url(../images/P1120673.webp);
+}
+
+.exp-img3 {
+  background-image: url(../images/McAfee_Knob_Hikers_Sunrise_3ebbcefb-1f6c-4dfa-a7ae-aed29f49d1f5.jpg);
+}
+
+.resimg-secone {
+  background-image: url(../images/GEAR.jpg);
+}
+
+.res-secone {
+  background-image: url(../images/k4-home-mobile-climb_1445x.jpg);
+}
+
+.resimgcon1 {
+  background-image: url(../images/Black\ Diamond\ Vision\ climbing\ helmet.jpg);
+}
+
+.resimgcon2 {
+  background-image: url(../images/292237_6769_XL.jpg);
+}
+
+.resimgcon3 {
+  background-image: url(../images/Climbing\ Ropes\ \(m\).jpg);
+}
+
+.res-img {
+  background-image: url(../images/download.png);
+}
+
+.res-img2 {
+  background-image: url(../images/north.png);
+}
+
+.res-img3 {
+  background-image: url(../images/sporta.jfif);
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-org {
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: monospace;
+}
+
+.footer-icons .fa-brands {
+  width: 25px;
+  height: 25px;
+  color: white;
+}
